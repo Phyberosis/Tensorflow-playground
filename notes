@@ -1,0 +1,13 @@
+use inst.sh
+don't know why cudnn doesn't install
+    it does but /usr/local/cuda/lib64 is a link to /usr/lib/x86_64-linux-gnu/
+    and it somehow filters only those from cuda??? black magic
+    have LD_LIBRARY_PATH point there
+
+for a in /sys/bus/pci/devices/*; do echo 0 | sudo tee -a $a/numa_node; done
+
+install tf with pip
+use apt to get cuda and cudnn
+dl cudnn with correct version and move to get library?
+also add the lib to env in bashrc
+something like that
