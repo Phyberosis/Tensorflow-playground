@@ -1,5 +1,6 @@
 cudax/
 tut/aclImdb/
+tut/aclImdb_v1.tar.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
