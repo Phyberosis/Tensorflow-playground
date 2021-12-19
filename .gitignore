@@ -1,6 +1,7 @@
 cudax/
 tut/aclImdb/
 tut/aclImdb_v1.tar.gz
+tut/training_checkpoints/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
