@@ -1,0 +1,48 @@
+{
+   "notes": [
+      "unless otherwise stated dictionaries within this schema are ACTUALLY TUPLES!",
+      "italics and formatting were removed",
+      "[_(text)] indicate subscripts as in H_(2)O for water",
+      "[^(text)] indicate superscripts as in H^(+) for a proton",
+      "the prime symbol ['], as in x', had to be converted from HTML [&#39;] and is very likely correct, but not checked"
+   ],
+   "pathways.npy (dictionary)": {
+      "id": {
+         "name": "string",
+         "genes": [
+            {
+               "identifiers": [
+                  "name",
+                  "other databse IDs"
+               ],
+               "synonyms": [
+                  "string"
+               ],
+               "location": "string",
+               "product": "string"
+            }
+         ],
+         "reactions": {
+            "enzyme commission (EC) numbers": [
+               "string"
+            ],
+            "reaction ID": "string",
+            "reaction equation": {
+               "left side": [
+                  "metabolite names"
+               ],
+               "direction": "one of: →, ↔, ←",
+               "right side": [
+                  "metabolite names"
+               ]
+            },
+            "enzymes": [
+               "enzyme names"
+            ]
+         }
+      }
+   },
+   "metabolites.npy (set)": {
+      "metabolite name": "string"
+   }
+}
